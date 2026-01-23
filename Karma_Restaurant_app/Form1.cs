@@ -5,6 +5,7 @@ namespace Karma_Restaurant_app
         public KarmaRestaurant()
         {
             InitializeComponent();
+            textBox2.PasswordChar = '*';
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -14,7 +15,8 @@ namespace Karma_Restaurant_app
             string password = textBox2.Text;
 
             // Validate the username and password
-            if (username == "admin" && password == "password")
+            if (username == "abhi" && password == "password")
+            //if (1==1)
             {
                 using (Dashboard da = new Dashboard())
                 {

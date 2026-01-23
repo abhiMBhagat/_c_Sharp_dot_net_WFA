@@ -1,4 +1,4 @@
-Customer Name: Abhi
-Phone Number: 9999999
-Email: abc@gmail.com
-Address: abc
+Customer Name: Abhi Bhagat
+Phone Number: 1111111111
+Email: a@a.com
+Address: 11,11 Street

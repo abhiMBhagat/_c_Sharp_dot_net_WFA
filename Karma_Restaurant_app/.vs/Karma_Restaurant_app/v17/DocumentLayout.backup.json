@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D125B509-79D3-4C4B-B8B1-9F90FBB560FB}|Karma_Restaurant_app.csproj|C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D125B509-79D3-4C4B-B8B1-9F90FBB560FB}|Karma_Restaurant_app.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D125B509-79D3-4C4B-B8B1-9F90FBB560FB}|Karma_Restaurant_app.csproj|c:\\workspace\\gitwork\\_c_sharp_dot_net_wfa\\karma_restaurant_app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D125B509-79D3-4C4B-B8B1-9F90FBB560FB}|Karma_Restaurant_app.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D125B509-79D3-4C4B-B8B1-9F90FBB560FB}|Karma_Restaurant_app.csproj|C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D125B509-79D3-4C4B-B8B1-9F90FBB560FB}|Karma_Restaurant_app.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D125B509-79D3-4C4B-B8B1-9F90FBB560FB}|Karma_Restaurant_app.csproj|c:\\workspace\\gitwork\\_c_sharp_dot_net_wfa\\karma_restaurant_app\\dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -71,10 +71,6 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Form1.Designer.cs",
@@ -89,12 +85,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\Dashboard.cs",
               "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\Dashboard.cs",
-              "RelativeToolTip": "Dashboard.cs",
+              "ToolTip": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\Dashboard.cs*",
+              "RelativeToolTip": "Dashboard.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T00:55:07.64Z",
@@ -102,12 +98,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\Dashboard.cs",
               "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\Dashboard.cs [Design]",
-              "RelativeToolTip": "Dashboard.cs [Design]",
+              "ToolTip": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\Dashboard.cs [Design]*",
+              "RelativeToolTip": "Dashboard.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T00:46:41.47Z",
               "EditorCaption": " [Design]"
@@ -118,9 +114,9 @@
               "Title": "Dashboard.Designer.cs",
               "DocumentMoniker": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\Dashboard.Designer.cs",
               "RelativeDocumentMoniker": "Dashboard.Designer.cs",
-              "ToolTip": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\Dashboard.Designer.cs",
-              "RelativeToolTip": "Dashboard.Designer.cs",
-              "ViewState": "AgIAAHADAAAAAAAAAAAkwEUDAAAnAAAAAAAAAA==",
+              "ToolTip": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\Dashboard.Designer.cs*",
+              "RelativeToolTip": "Dashboard.Designer.cs*",
+              "ViewState": "AgIAAHADAAAAAAAAAAAkwCADAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T19:36:33.945Z",
               "EditorCaption": ""
@@ -137,6 +133,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-01-20T22:35:25.395Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -169,8 +169,8 @@
               "Title": "Dashboard.resx",
               "DocumentMoniker": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\Dashboard.resx",
               "RelativeDocumentMoniker": "Dashboard.resx",
-              "ToolTip": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\Dashboard.resx",
-              "RelativeToolTip": "Dashboard.resx",
+              "ToolTip": "C:\\workspace\\GitWork\\_c_Sharp_dot_net_WFA\\Karma_Restaurant_app\\Dashboard.resx*",
+              "RelativeToolTip": "Dashboard.resx*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2026-01-20T17:59:10.259Z",
               "EditorCaption": ""

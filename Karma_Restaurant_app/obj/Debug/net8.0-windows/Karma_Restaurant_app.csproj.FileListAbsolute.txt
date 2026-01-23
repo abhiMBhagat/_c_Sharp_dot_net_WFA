@@ -34,3 +34,22 @@ D:\Abhi_D_Data\HUMBER\OneDrive - Humber Polytechnic\ITS docs1\Study Materials\IT
 D:\Abhi_D_Data\HUMBER\OneDrive - Humber Polytechnic\ITS docs1\Study Materials\ITS_5230_AppDev_C# .Net\proj1\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.pdb
 D:\Abhi_D_Data\HUMBER\OneDrive - Humber Polytechnic\ITS docs1\Study Materials\ITS_5230_AppDev_C# .Net\proj1\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.genruntimeconfig.cache
 D:\Abhi_D_Data\HUMBER\OneDrive - Humber Polytechnic\ITS docs1\Study Materials\ITS_5230_AppDev_C# .Net\proj1\Karma_Restaurant_app\obj\Debug\net8.0-windows\ref\Karma_Restaurant_app.dll
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\bin\Debug\net8.0-windows\Karma_Restaurant_app.exe
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\bin\Debug\net8.0-windows\Karma_Restaurant_app.deps.json
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\bin\Debug\net8.0-windows\Karma_Restaurant_app.runtimeconfig.json
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\bin\Debug\net8.0-windows\Karma_Restaurant_app.dll
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\bin\Debug\net8.0-windows\Karma_Restaurant_app.pdb
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.Dashboard.resources
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.KarmaRestaurant.resources
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.Properties.Resources.resources
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.csproj.GenerateResource.cache
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.AssemblyInfoInputs.cache
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.AssemblyInfo.cs
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.csproj.CoreCompileInputs.cache
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.sourcelink.json
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.dll
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\refint\Karma_Restaurant_app.dll
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.pdb
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\Karma_Restaurant_app.genruntimeconfig.cache
+C:\workspace\GitWork\_c_Sharp_dot_net_WFA\Karma_Restaurant_app\obj\Debug\net8.0-windows\ref\Karma_Restaurant_app.dll

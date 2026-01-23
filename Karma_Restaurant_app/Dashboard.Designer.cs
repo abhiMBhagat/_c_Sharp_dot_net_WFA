@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             tabControl1 = new TabControl();
             tabPage2 = new TabPage();
+            button6 = new Button();
             label7 = new Label();
             textBox4 = new TextBox();
             textBox3 = new TextBox();
@@ -42,6 +43,7 @@
             label4 = new Label();
             label3 = new Label();
             tabPage1 = new TabPage();
+            button7 = new Button();
             button1 = new Button();
             comboBox9 = new ComboBox();
             comboBox8 = new ComboBox();
@@ -62,6 +64,10 @@
             pictureBox4 = new PictureBox();
             pictureBox3 = new PictureBox();
             tabPage3 = new TabPage();
+            label16 = new Label();
+            label15 = new Label();
+            label14 = new Label();
+            button8 = new Button();
             label12 = new Label();
             button4 = new Button();
             label11 = new Label();
@@ -81,11 +87,11 @@
             button5 = new Button();
             textBox8 = new TextBox();
             panel1 = new Panel();
+            label13 = new Label();
             label2 = new Label();
             label1 = new Label();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
-            button6 = new Button();
             tabControl1.SuspendLayout();
             tabPage2.SuspendLayout();
             tabPage1.SuspendLayout();
@@ -140,11 +146,22 @@
             tabPage2.Text = "New Customer";
             tabPage2.UseVisualStyleBackColor = true;
             // 
+            // button6
+            // 
+            button6.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            button6.Location = new Point(330, 382);
+            button6.Name = "button6";
+            button6.Size = new Size(127, 39);
+            button6.TabIndex = 11;
+            button6.Text = "Clear";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(188, 313);
+            label7.Location = new Point(181, 326);
             label7.Name = "label7";
             label7.Size = new Size(85, 25);
             label7.TabIndex = 10;
@@ -152,28 +169,28 @@
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(278, 313);
+            textBox4.Location = new Point(271, 326);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(341, 30);
             textBox4.TabIndex = 9;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(278, 251);
+            textBox3.Location = new Point(271, 263);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(341, 30);
             textBox3.TabIndex = 8;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(278, 189);
+            textBox2.Location = new Point(271, 201);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(341, 30);
             textBox2.TabIndex = 7;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(278, 141);
+            textBox1.Location = new Point(271, 153);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(341, 30);
             textBox1.TabIndex = 6;
@@ -181,11 +198,11 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(382, 387);
+            button2.Location = new Point(483, 382);
             button2.Name = "button2";
-            button2.Size = new Size(88, 36);
+            button2.Size = new Size(129, 39);
             button2.TabIndex = 5;
-            button2.Text = "Save";
+            button2.Text = "Enter";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
@@ -193,7 +210,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(203, 254);
+            label6.Location = new Point(196, 266);
             label6.Name = "label6";
             label6.Size = new Size(73, 25);
             label6.TabIndex = 3;
@@ -203,7 +220,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(173, 192);
+            label5.Location = new Point(166, 204);
             label5.Name = "label5";
             label5.Size = new Size(98, 25);
             label5.TabIndex = 2;
@@ -214,7 +231,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(121, 144);
+            label4.Location = new Point(114, 156);
             label4.Name = "label4";
             label4.Size = new Size(155, 25);
             label4.TabIndex = 1;
@@ -224,15 +241,16 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(269, 51);
+            label3.Location = new Point(252, 56);
             label3.Name = "label3";
-            label3.Size = new Size(330, 46);
+            label3.Size = new Size(360, 46);
             label3.TabIndex = 0;
-            label3.Text = "Add New Customer";
+            label3.Text = "Personal Information";
             label3.Click += label3_Click;
             // 
             // tabPage1
             // 
+            tabPage1.Controls.Add(button7);
             tabPage1.Controls.Add(button1);
             tabPage1.Controls.Add(comboBox9);
             tabPage1.Controls.Add(comboBox8);
@@ -264,12 +282,24 @@
             tabPage1.UseWaitCursor = true;
             tabPage1.Click += tabPage1_Click;
             // 
+            // button7
+            // 
+            button7.Font = new Font("Arial Black", 12F, FontStyle.Bold);
+            button7.Location = new Point(1197, 460);
+            button7.Name = "button7";
+            button7.Size = new Size(103, 41);
+            button7.TabIndex = 35;
+            button7.Text = "Reset";
+            button7.UseVisualStyleBackColor = true;
+            button7.UseWaitCursor = true;
+            button7.Click += button7_Click;
+            // 
             // button1
             // 
             button1.Font = new Font("Arial Black", 12F, FontStyle.Bold);
-            button1.Location = new Point(1172, 357);
+            button1.Location = new Point(1154, 390);
             button1.Name = "button1";
-            button1.Size = new Size(146, 66);
+            button1.Size = new Size(146, 53);
             button1.TabIndex = 34;
             button1.Text = "Add to Cart";
             button1.UseVisualStyleBackColor = true;
@@ -484,6 +514,10 @@
             // 
             // tabPage3
             // 
+            tabPage3.Controls.Add(label16);
+            tabPage3.Controls.Add(label15);
+            tabPage3.Controls.Add(label14);
+            tabPage3.Controls.Add(button8);
             tabPage3.Controls.Add(label12);
             tabPage3.Controls.Add(button4);
             tabPage3.Controls.Add(label11);
@@ -496,6 +530,7 @@
             tabPage3.Controls.Add(radioButton1);
             tabPage3.Controls.Add(label9);
             tabPage3.Controls.Add(label8);
+            tabPage3.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             tabPage3.Location = new Point(4, 32);
             tabPage3.Name = "tabPage3";
             tabPage3.Padding = new Padding(3);
@@ -505,21 +540,70 @@
             tabPage3.UseVisualStyleBackColor = true;
             tabPage3.Click += tabPage3_Click;
             // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.BackColor = Color.SandyBrown;
+            label16.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            label16.ForeColor = SystemColors.ControlLightLight;
+            label16.Location = new Point(818, 235);
+            label16.Name = "label16";
+            label16.Size = new Size(79, 25);
+            label16.TabIndex = 17;
+            label16.Text = "(L) x 2$";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.BackColor = Color.SandyBrown;
+            label15.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            label15.ForeColor = SystemColors.ButtonHighlight;
+            label15.Location = new Point(571, 235);
+            label15.Name = "label15";
+            label15.Size = new Size(103, 25);
+            label15.TabIndex = 16;
+            label15.Text = "(M) x 1.5$";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = Color.SandyBrown;
+            label14.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            label14.ForeColor = SystemColors.ControlLightLight;
+            label14.Location = new Point(333, 235);
+            label14.Name = "label14";
+            label14.Size = new Size(81, 25);
+            label14.TabIndex = 15;
+            label14.Text = "(R) x 1$";
+            label14.Click += label14_Click;
+            // 
+            // button8
+            // 
+            button8.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            button8.Location = new Point(583, 339);
+            button8.Name = "button8";
+            button8.Size = new Size(93, 38);
+            button8.TabIndex = 14;
+            button8.Text = "Clear";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(221, 357);
+            label12.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            label12.Location = new Point(221, 354);
             label12.Name = "label12";
-            label12.Size = new Size(107, 23);
+            label12.Size = new Size(127, 28);
             label12.TabIndex = 13;
             label12.Text = "#Final Meal:";
             // 
             // button4
             // 
-            button4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.Location = new Point(514, 272);
+            button4.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            button4.Location = new Point(682, 339);
             button4.Name = "button4";
-            button4.Size = new Size(126, 27);
+            button4.Size = new Size(119, 38);
             button4.TabIndex = 12;
             button4.Text = "Add Meal";
             button4.UseVisualStyleBackColor = true;
@@ -530,7 +614,7 @@
             label11.AutoSize = true;
             label11.Location = new Point(187, 27);
             label11.Name = "label11";
-            label11.Size = new Size(311, 23);
+            label11.Size = new Size(341, 25);
             label11.TabIndex = 11;
             label11.Text = "# Please select your item from below:";
             // 
@@ -557,9 +641,9 @@
             // 
             // textBox7
             // 
-            textBox7.Location = new Point(144, 26);
+            textBox7.Location = new Point(160, 26);
             textBox7.Name = "textBox7";
-            textBox7.Size = new Size(97, 30);
+            textBox7.Size = new Size(97, 32);
             textBox7.TabIndex = 12;
             // 
             // label10
@@ -567,7 +651,7 @@
             label10.AutoSize = true;
             label10.Location = new Point(14, 29);
             label10.Name = "label10";
-            label10.Size = new Size(124, 23);
+            label10.Size = new Size(140, 25);
             label10.TabIndex = 11;
             label10.Text = "Your Subtotal:";
             // 
@@ -583,27 +667,27 @@
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 23;
+            listBox1.ItemHeight = 25;
             listBox1.Location = new Point(196, 53);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(755, 142);
+            listBox1.Size = new Size(755, 129);
             listBox1.TabIndex = 8;
             listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged_1;
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(435, 269);
+            textBox6.Location = new Point(378, 302);
             textBox6.Name = "textBox6";
-            textBox6.Size = new Size(44, 30);
+            textBox6.Size = new Size(44, 32);
             textBox6.TabIndex = 7;
             textBox6.TextChanged += textBox6_TextChanged;
             // 
             // radioButton3
             // 
             radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(682, 221);
+            radioButton3.Location = new Point(738, 233);
             radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(76, 27);
+            radioButton3.Size = new Size(83, 29);
             radioButton3.TabIndex = 5;
             radioButton3.Text = "Large";
             radioButton3.UseVisualStyleBackColor = true;
@@ -612,9 +696,9 @@
             // radioButton2
             // 
             radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(552, 221);
+            radioButton2.Location = new Point(467, 233);
             radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(98, 27);
+            radioButton2.Size = new Size(107, 29);
             radioButton2.TabIndex = 4;
             radioButton2.Text = "Medium";
             radioButton2.UseVisualStyleBackColor = true;
@@ -624,9 +708,9 @@
             // 
             radioButton1.AutoSize = true;
             radioButton1.Checked = true;
-            radioButton1.Location = new Point(420, 221);
+            radioButton1.Location = new Point(237, 233);
             radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(93, 27);
+            radioButton1.Size = new Size(102, 29);
             radioButton1.TabIndex = 3;
             radioButton1.TabStop = true;
             radioButton1.Text = "Regular";
@@ -636,20 +720,21 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(243, 272);
+            label9.Location = new Point(172, 304);
             label9.Name = "label9";
-            label9.Size = new Size(180, 23);
+            label9.Size = new Size(200, 25);
             label9.TabIndex = 2;
             label9.Text = "Quantity in numbers:";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(275, 221);
+            label8.Location = new Point(433, 194);
             label8.Name = "label8";
-            label8.Size = new Size(113, 23);
+            label8.Size = new Size(222, 25);
             label8.TabIndex = 1;
-            label8.Text = "Size of meal:";
+            label8.Text = "*Choose your meal size:";
+            label8.Click += label8_Click;
             // 
             // tabPage4
             // 
@@ -667,7 +752,7 @@
             // 
             button5.Location = new Point(541, 486);
             button5.Name = "button5";
-            button5.Size = new Size(167, 35);
+            button5.Size = new Size(167, 34);
             button5.TabIndex = 1;
             button5.Text = "Print Receipt";
             button5.UseVisualStyleBackColor = true;
@@ -685,6 +770,7 @@
             // panel1
             // 
             panel1.BackColor = Color.Red;
+            panel1.Controls.Add(label13);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(pictureBox2);
@@ -692,27 +778,39 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1362, 120);
+            panel1.Size = new Size(1354, 120);
             panel1.TabIndex = 1;
             panel1.Paint += panel1_Paint;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Segoe UI", 9F, FontStyle.Bold | FontStyle.Italic);
+            label13.ForeColor = SystemColors.Info;
+            label13.Location = new Point(898, 100);
+            label13.Name = "label13";
+            label13.Size = new Size(207, 20);
+            label13.TabIndex = 4;
+            label13.Text = "© Designed by Abhi Bhagat";
+            label13.Click += label13_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Yu Gothic", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("SuperFrench", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.Yellow;
-            label2.Location = new Point(410, 9);
+            label2.Location = new Point(367, 9);
             label2.Name = "label2";
-            label2.Size = new Size(400, 60);
+            label2.Size = new Size(509, 55);
             label2.TabIndex = 3;
-            label2.Text = "Karma's Kitchen";
+            label2.Text = "!!! Karma's Kitchen !!!";
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.Info;
-            label1.Location = new Point(362, 69);
+            label1.Location = new Point(325, 64);
             label1.Name = "label1";
             label1.Size = new Size(576, 41);
             label1.TabIndex = 2;
@@ -722,7 +820,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(67, 0);
+            pictureBox2.Location = new Point(62, 0);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(147, 120);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -732,34 +830,26 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(1144, 0);
+            pictureBox1.Location = new Point(1123, 0);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(140, 120);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // button6
-            // 
-            button6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button6.Location = new Point(531, 387);
-            button6.Name = "button6";
-            button6.Size = new Size(88, 36);
-            button6.TabIndex = 11;
-            button6.Text = "Order";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
-            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
-            ClientSize = new Size(1362, 755);
+            ClientSize = new Size(1354, 725);
             Controls.Add(panel1);
             Controls.Add(tabControl1);
+            Font = new Font("Segoe UI", 9F);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Dashboard";
-            Text = "Dashboard";
+            Text = "Karma's Kitchen POS System";
+            Load += Dashboard_Load;
             tabControl1.ResumeLayout(false);
             tabPage2.ResumeLayout(false);
             tabPage2.PerformLayout();
@@ -845,5 +935,11 @@
         private Button button5;
         private TextBox textBox8;
         private Button button6;
+        private Button button7;
+        private Button button8;
+        private Label label13;
+        private Label label14;
+        private Label label16;
+        private Label label15;
     }
 }

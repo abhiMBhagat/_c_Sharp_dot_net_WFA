@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Karma_Restaurant_app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b26bba919501dc0bee8b3d23748dde1f1fdc835")]
 [assembly: System.Reflection.AssemblyProductAttribute("Karma_Restaurant_app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Karma_Restaurant_app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
